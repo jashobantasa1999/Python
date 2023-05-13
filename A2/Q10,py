@@ -1,0 +1,13 @@
+sum = lambda a,b :print("sum =",a+b)
+sub = lambda a,b :print("sub=",a-b)
+div = lambda a,b :print("div =",a//b)
+multi = lambda a,b :print("multi =",a*b)
+mod = lambda a,b:print("mod =",a%b)
+
+a = int (input("enter a number "))
+b = int (input("enter a number "))
+sum(a,b)
+sub(a,b)
+div(a,b)
+multi(a,b)
+mod(a,b)
